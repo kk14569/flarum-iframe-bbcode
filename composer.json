@@ -1,0 +1,35 @@
+{
+  "name": "kk14569/flarum-iframe-bbcode",
+  "description": "Adds Iframe BBCode support to Flarum.",
+  "keywords": [
+    "formatting",
+    "bbcode",
+    "flarum"
+  ],
+  "type": "flarum-extension",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "14569",
+      "homepage": "https://github.com/kk14569"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/kk14569/flarum-iframe-bbcode/issues",
+    "source": "https://github.com/kk14569/flarum-iframe-bbcode"
+  },
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Iframe BBCode",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-code",
+        "backgroundColor": "#238C59",
+        "color": "#fff"
+      }
+    }
+  }
+}
